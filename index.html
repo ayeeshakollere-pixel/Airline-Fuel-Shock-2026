@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>When fuel prices doubled: how four airlines coped</title>
+<meta name="description" content="A plain-language look at how Delta, United, Ryanair and easyJet handled the 2026 jet fuel price shock, with a source for every number.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%2352143A'/%3E%3Ctext x='50' y='68' font-family='Georgia,serif' font-size='52' fill='%23FAF8F5' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#110508;--card:rgba(255,255,255,.04);--bd:rgba(255,255,255,.09);--tx:#F6EFF2;--mu:#B3A0AA;--now:#E08FBE;--bf:#7A5568;--sg:#8FD0A0;--gd:#E8C27A}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--bg);color:var(--tx);font-family:'Plus Jakarta Sans',system-ui,sans-serif;-webkit-font-smoothing:antialiased;scroll-behavior:smooth}
+body{line-height:1.65;background:radial-gradient(900px 500px at 10% -5%,rgba(110,35,81,.55),transparent 60%),radial-gradient(700px 500px at 100% 30%,rgba(60,110,80,.18),transparent 60%),var(--bg);min-height:100vh;font-variant-numeric:tabular-nums}
+h1,h2,h3{font-family:'Lora',Georgia,serif;font-weight:600;line-height:1.2}
+a{color:var(--sg)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--sg);outline-offset:3px;border-radius:8px}
+.top{position:sticky;top:0;z-index:20;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);background:rgba(17,5,8,.72);border-bottom:1px solid var(--bd)}
+.top div{max-width:1040px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:.88rem}
+.brand{display:flex;align-items:center;gap:10px;font-weight:600}
+.brand i{width:28px;height:28px;border-radius:50% 50% 7px 7px;background:#52143A;display:grid;place-items:center;font-family:Lora,serif;font-style:normal}
+.top a{text-decoration:none;color:var(--mu)}
+main{max-width:1040px;margin:0 auto;padding:0 20px 72px}
+.hero{padding:64px 0 36px}
+.eyebrow{font-size:.74rem;letter-spacing:.16em;text-transform:uppercase;color:var(--sg);font-weight:700;margin-bottom:14px}
+h1{font-size:clamp(2rem,5.6vw,3.4rem);max-width:17ch;margin-bottom:18px;font-weight:700}
+.lede{font-size:1.12rem;color:var(--mu);max-width:58ch}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:14px;margin-top:36px}
+.kpi{background:var(--card);border:1px solid var(--bd);border-radius:18px;padding:22px 20px;position:relative;overflow:hidden}
+.kpi::before{content:"";position:absolute;left:0;top:0;height:3px;width:100%;background:linear-gradient(90deg,var(--now),transparent)}
+.kpi b{display:block;font-family:Lora,serif;font-size:2.5rem;line-height:1.1;margin-bottom:8px}
+.kpi span{font-size:.9rem;color:var(--mu);display:block}
+.kpi:nth-child(3)::before{background:linear-gradient(90deg,var(--sg),transparent)}
+sup a{text-decoration:none;font-size:.7rem;margin-left:2px;color:var(--sg)}
+h2{font-size:1.65rem;margin:64px 0 8px}
+.h2s{color:var(--mu);max-width:60ch;margin-bottom:22px}
+.tabs{display:inline-flex;gap:4px;padding:5px;border:1px solid var(--bd);border-radius:40px;background:var(--card);margin-bottom:12px}
+.tabs button{background:none;border:0;color:var(--mu);padding:10px 20px;border-radius:30px;font:inherit;font-weight:600;font-size:.92rem;cursor:pointer;transition:all .25s}
+.tabs button[aria-pressed=true]{background:var(--now);color:#17090E}
+.pnote{color:var(--mu);font-size:.93rem;min-height:3.2em;max-width:70ch;margin-bottom:16px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:20px;padding:24px}
+.card h3{font-size:1.15rem;margin-bottom:4px}
+.card .q{color:var(--mu);font-size:.88rem;margin-bottom:20px}
+.cols{display:flex;gap:12px;height:230px;align-items:flex-end;border-bottom:1px solid var(--bd);position:relative;background:repeating-linear-gradient(to top,transparent 0 56px,rgba(255,255,255,.05) 56px 57px)}
+.col{flex:1;height:100%;display:flex;align-items:flex-end;justify-content:center}
+.bv{width:62%;position:relative;border-radius:10px 10px 2px 2px;background:linear-gradient(180deg,var(--now),#8a3b6a);height:0;transition:height .9s cubic-bezier(.2,.8,.2,1)}
+.bv.low{background:linear-gradient(180deg,var(--sg),#3f7a52)}
+.bv.na{background:none;border:1.5px dashed var(--bf);height:46px!important}
+.bv em{position:absolute;top:-26px;left:50%;transform:translateX(-50%);font-style:normal;font-weight:700;white-space:nowrap;font-size:.95rem}
+.bv.na em{top:50%;transform:translate(-50%,-50%);color:var(--mu);font-weight:500;font-size:.78rem}
+.names{display:flex;gap:12px;padding-top:8px}
+.names div{flex:1;text-align:center;font-weight:600;font-size:.88rem}
+.legend{display:flex;gap:16px;flex-wrap:wrap;font-size:.8rem;color:var(--mu);margin-top:14px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px}
+.fn{margin-top:14px;font-size:.84rem;color:var(--mu);display:flex;flex-direction:column;gap:6px}
+.est{font-size:.68rem;color:var(--gd);margin-left:5px;font-weight:600;letter-spacing:.04em}
+.axis{display:grid;grid-template-columns:76px 1fr 92px;gap:12px;font-size:.72rem;color:var(--mu);margin-bottom:4px}
+.axis div:nth-child(2){display:flex;justify-content:space-between}
+.mr{display:grid;grid-template-columns:76px 1fr 92px;gap:12px;align-items:center;padding:12px 0;border-top:1px solid var(--bd)}
+.mr .nm{font-weight:600;font-size:.92rem}
+.trk{position:relative;height:30px;background:repeating-linear-gradient(to right,rgba(255,255,255,.07) 0 1px,transparent 1px 20%);}
+.trk::after{content:"";position:absolute;left:0;right:0;top:50%;height:1px;background:var(--bd)}
+.ln{position:absolute;top:50%;height:4px;margin-top:-2px;border-radius:2px;background:linear-gradient(90deg,var(--bf),var(--now));transition:all .8s cubic-bezier(.2,.8,.2,1);z-index:1}
+.dt{position:absolute;top:50%;width:16px;height:16px;margin:-8px 0 0 -8px;border-radius:50%;transition:left .8s cubic-bezier(.2,.8,.2,1),opacity .4s;z-index:2}
+.dp{border:2.5px solid var(--bf);background:var(--bg)}
+.dn{background:var(--now);box-shadow:0 0 0 4px rgba(224,143,190,.22)}
+.trk .msg{position:absolute;inset:0;display:none;align-items:center;font-size:.76rem;color:var(--mu);border:1px dashed var(--bf);border-radius:8px;padding:0 10px;background:var(--bg);z-index:3;line-height:1.3}
+.mr.na .msg{display:flex}
+.mr.na .ln,.mr.na .dt{opacity:0}
+.dl{text-align:right}
+.dl b{display:block;font-family:Lora,serif;font-size:1.2rem;line-height:1.1}
+.dl small{color:var(--mu);font-size:.74rem}
+.k2{display:flex;gap:16px;font-size:.78rem;color:var(--mu);margin-top:12px;flex-wrap:wrap}
+.k2 i{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+.wide{margin-top:16px}
+.ins{display:grid;grid-template-columns:1.25fr 1fr;gap:26px;align-items:center}
+.ins svg{width:100%;height:auto;display:block}
+.ins p{color:var(--mu)}
+.ins p b{color:var(--tx)}
+.ins h3{font-size:1.4rem;margin-bottom:12px}
+.fares{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}
+.fc{border:1px solid var(--bd);background:var(--card);border-radius:18px;padding:20px}
+.fc small{display:block;color:var(--mu);font-size:.8rem;margin-bottom:6px}
+.fc b{font-family:Lora,serif;font-size:2rem}
+.fc.up b{color:var(--sg)}.fc.dn2 b{color:var(--now)}
+.fc span{display:block;color:var(--mu);font-size:.85rem;margin-top:4px}
+.story{counter-reset:s;list-style:none;max-width:70ch}
+.story li{counter-increment:s;position:relative;padding:0 0 22px 54px}
+.story li::before{content:counter(s);position:absolute;left:0;top:-2px;width:36px;height:36px;border-radius:50%;border:1px solid var(--now);color:var(--now);display:grid;place-items:center;font-family:Lora,serif;font-weight:600}
+.story strong{color:var(--sg)}
+.box{border:1px solid rgba(232,194,122,.5);border-radius:18px;padding:22px 24px;background:rgba(232,194,122,.05);margin-top:12px}
+.box h3{font-size:1.1rem;margin-bottom:10px}
+.box li{margin:0 0 8px 18px;font-size:.93rem;color:var(--mu)}
+.src{list-style:none;columns:1}
+.src li{display:grid;grid-template-columns:32px 1fr;gap:6px;font-size:.88rem;padding:9px 0;border-top:1px solid var(--bd)}
+.src .k{color:var(--now);font-weight:700}
+.src em{display:block;font-style:normal;font-size:.76rem;color:var(--gd)}
+footer{margin-top:56px;color:var(--mu);font-size:.86rem;border-top:1px solid var(--bd);padding-top:20px}
+.rv{opacity:0;transform:translateY(18px);transition:opacity .7s,transform .7s}.rv.in{opacity:1;transform:none}
+@media(max-width:820px){.grid,.ins{grid-template-columns:1fr}}
+@media(max-width:520px){.axis,.mr{grid-template-columns:62px 1fr 74px;gap:8px}.card{padding:18px}.tabs button{padding:9px 14px}.story li{padding-left:48px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<header class="top"><div><span class="brand"><i>A</i>Airline Fuel Shock 2026</span><a href="https://ayeeshakollere-pixel.github.io/Portfolio-website/">← Back to portfolio</a></div></header>
+<main>
+<section class="hero">
+<p class="eyebrow">Data story · November 2026</p>
+<h1>When fuel prices doubled, how did four airlines cope?</h1>
+<p class="lede">Delta, United, Ryanair and easyJet, before and after the 2026 Middle East war pushed up the price of jet fuel. Airlines that locked in their fuel price early paid far less extra for fuel, but they still kept less profit from every ticket sold.<sup><a href="#s12">12</a></sup></p>
+<div class="kpis">
+<div class="kpi"><b data-n="23" data-p="$" data-s="B">$0B</b><span>Expected 2026 airline industry profit, down from $45B last year<sup><a href="#s12">12</a></sup></span></div>
+<div class="kpi"><b data-n="84" data-p="+" data-s="%">0%</b><span>United’s extra fuel cost in April–June, the biggest of the four<sup><a href="#s5">5</a></sup></span></div>
+<div class="kpi"><b data-n="16" data-p="+" data-s="%">0%</b><span>Ryanair’s extra fuel cost in the same months, the smallest of the four<sup><a href="#s13">13</a></sup></span></div>
+<div class="kpi"><b>4 of 4</b><span>Airlines that kept less profit from each $100 of sales than a year earlier (two figures are our estimates)</span></div>
+</div>
+</section>
+
+<h2>Explore it by period</h2>
+<p class="h2s">Pick three months. Where a number isn’t available, the page says why instead of hiding it.</p>
+<div class="tabs" id="tabs" role="group" aria-label="Choose a period"></div>
+<p class="pnote" id="pn"></p>
+<div class="grid">
+<div class="card rv"><h3>How much more they paid for fuel</h3><p class="q">Compared with the same three months last year.</p>
+<div class="cols" id="cols"></div><div class="names" id="names"></div>
+<div class="legend"><span><i style="background:var(--now)"></i>Paid close to the going price</span><span><i style="background:var(--sg)"></i>Locked in a price early</span></div>
+<div class="fn" id="fn"></div></div>
+<div class="card rv"><h3>Profit kept from every $100 of sales</h3><p class="q">Each airline’s profit from running flights, before one-off items.</p>
+<div class="axis"><div></div><div><span>$0</span><span>$5</span><span>$10</span><span>$15</span><span>$20</span><span>$25</span></div><div></div></div>
+<div id="mr"></div>
+<div class="k2"><span><i style="border:2.5px solid var(--bf)"></i>Same months last year</span><span><i style="background:var(--now)"></i>This year</span></div></div>
+</div>
+
+<div class="card wide rv" style="margin-top:16px">
+<div class="ins">
+<svg viewBox="0 0 560 330" role="img" aria-label="Chart: fuel cost rise against profit lost for four airlines, April to June 2026" id="sc"></svg>
+<div><p class="eyebrow">The pattern</p><h3>Paying less for fuel didn’t mean losing less profit</h3>
+<p>Ryanair and easyJet paid only about a sixth as much extra for fuel as Delta and United did. Yet every airline lost somewhere between $4.50 and $8 of profit from each $100 of sales.<sup><a href="#s2">2</a><a href="#s5">5</a><a href="#s13">13</a><a href="#s14">14</a></sup></p>
+<p style="margin-top:10px"><b>The reason sits in the fares</b>, shown below. Hollow dots are our estimates. April–June 2026.</p></div>
+</div></div>
+
+<h2>What each airline did with prices</h2>
+<p class="h2s">Change in money earned per seat, April–June 2026, against the same months last year.</p>
+<div class="fares rv">
+<div class="fc up"><small>Delta</small><b>+12.4%</b><span>Charged more per seat<sup><a href="#s2">2</a></sup></span></div>
+<div class="fc up"><small>United</small><b>+12.1%</b><span>Charged more per seat<sup><a href="#s5">5</a></sup></span></div>
+<div class="fc dn2"><small>Ryanair</small><b>−6%</b><span>Average fare fell<sup><a href="#s13">13</a></sup></span></div>
+<div class="fc dn2"><small>easyJet</small><b>−3%</b><span>Charged less per seat<sup><a href="#s11">11</a></sup></span></div>
+</div>
+
+<h2>What happened, in plain words</h2>
+<ol class="story rv" style="margin-top:22px">
+<li><strong>Fuel got much more expensive.</strong> The war began in early 2026. The airline industry body expects jet fuel to average about $152 a barrel this year, compared with $90 last year.<sup><a href="#s12">12</a></sup></li>
+<li><strong>Locking in a price helped a lot with the fuel bill.</strong> Ryanair had agreed a price in advance for 80% of its fuel, at about $67 a barrel.<sup><a href="#s8">8</a></sup> easyJet had also locked in most of its fuel, about 79% for July to September.<sup><a href="#s11">11</a></sup> Their fuel bills rose 16–17% in April to June, against 77–84% for Delta and United.<sup><a href="#s2">2</a><a href="#s5">5</a><a href="#s13">13</a><a href="#s14">14</a></sup></li>
+<li><strong>But it didn’t save their profits.</strong> All four airlines kept less profit from each $100 of sales in April to June than a year earlier.</li>
+<li><strong>The difference was in what they charged.</strong> Delta and United earned about 12% more per seat. Ryanair’s average fare fell 6%, and easyJet earned 3% less per seat. Both said the war made customers book later and hesitate.<sup><a href="#s9">9</a><a href="#s10">10</a></sup></li>
+<li><strong>The US airlines started to catch up.</strong> United won back about half of its extra fuel cost in April to June<sup><a href="#s5">5</a></sup> and expected to win back most of it later in the year.<sup><a href="#s16">16</a></sup> But fuel is still expensive: Delta expects about $4.25 a gallon this quarter<sup><a href="#s3">3</a></sup> and United about $4.80.<sup><a href="#s6">6</a></sup></li>
+<li><strong>The protection runs out.</strong> Ryanair has locked in only 25% of its fuel for the next year, at about $95 a barrel.<sup><a href="#s18">18</a></sup></li>
+</ol>
+
+<div class="box rv"><h3>What this page can’t tell you</h3><ul>
+<li>It covers four airlines and one event. It shows what happened, not a rule for every airline.</li>
+<li>The war hurt more than fuel. It also made some customers hesitate to book, so lower fares are not only a choice.</li>
+<li>Companies measure profit in slightly different ways, and report in dollars, euros and pounds. That is why the page compares percentages, not money amounts.</li>
+<li>Numbers marked “est.” are calculated from reported figures. Numbers from news reports should be checked against the company’s own release.</li></ul></div>
+
+<h2>Where every number comes from</h2>
+<ul class="src" id="src"></ul>
+<footer>Built by Aisha Abubakar · Figures as of 6 November 2026 · <a href="https://ayeeshakollere-pixel.github.io/Portfolio-website/">Back to portfolio</a></footer>
+</main>
+<script>
+var S={
+s1:["Delta, March quarter 2026 results","https://ir.delta.com/news/news-details/2026/Delta-Air-Lines-Announces-March-Quarter-2026-Financial-Results/default.aspx",0],
+s2:["Delta, June quarter 2026 results","https://www.prnewswire.com/news-releases/delta-air-lines-announces-june-quarter-2026-financial-results-302822559.html",0],
+s3:["Delta, September quarter 2026 results (SEC filing)","https://www.sec.gov/Archives/edgar/data/0000027904/000002790426000035/deltaairlinesannouncessept.htm",0],
+s4:["United, March quarter 2026 (SEC filing)","https://www.sec.gov/Archives/edgar/data/0000100517/000010051726000091/ual-20260331.htm",0],
+s5:["United, June quarter 2026 (SEC filing)","https://www.sec.gov/Archives/edgar/data/0000100517/000010051726000139/ual-20260630.htm",0],
+s6:["United, September quarter 2026 (SEC filing)","https://www.sec.gov/Archives/edgar/data/0000100517/000010051726000184/ual_erx09302026xex991.htm",0],
+s8:["Ryanair, April to June 2026, news report of company results","https://www.travelextra.ie/ryanair-profit-for-april-june-down-34pc-as-unhedged-fuel-drives-costs-up/",1],
+s9:["Ryanair, April to September 2026, news report of company results","https://www.travelextra.ie/ryanair-says-summer-profit-down-15pc-due-to-fuel-price-despite-80pc-hedging/",1],
+s10:["easyJet, six months to March 2026 (company results)","https://s203.q4cdn.com/522538739/files/doc_financials/2026/q2/1-HY26-Combined-RNS-FINAL.pdf",0],
+s11:["easyJet, April to June 2026 (company update)","https://s203.q4cdn.com/522538739/files/doc_financials/2026/q3/FY26-Q3-RNS-vf.pdf",0],
+s12:["IATA, airline industry outlook, 7 June 2026","https://www.iata.org/en/pressroom/2026-releases/06-07-middle-east-disruptions-high-fuel-prices-halve-airline-industry-profitability/",0],
+s13:["Ryanair, April to June 2026, results summary (fuel cost, profit, fares)","https://quartr.com/events/ryanair-holdings-plc-rya-q1-2027_3PZzAfmo",1],
+s14:["easyJet, April to June 2026, results summary (fuel cost) and FlightGlobal (operating profit)","https://www.flightglobal.com/archive/2026/07/easyjet-profits-plummet-as-it-waits-to-see-if-apollo-firms-up-takeover-proposal/",1],
+s15:["Last year’s profit share for Delta and United, news reports","https://eglobaltravelmedia.com.au/?p=1512053",1],
+s16:["United, September quarter profit share and fuel recovery, analysis site","https://beancount.io/blog/2026/10/21/united-airlines-fy2026-q3-earnings-analysis",1],
+s18:["Ryanair, next year’s fuel protection, news report","https://kalkine.com/news/announcements/ryanair-h1-fy27-pat-falls-15-to-215bn",1]};
+var A=["Delta","United","Ryanair","easyJet"];
+/* fuel: [value, estimate, sources, whyMissing, lockedIn] */
+var P={
+"Jan–Mar":{note:"The war began near the end of this period, so this is mostly a calm baseline. Ryanair and easyJet don’t report these three months on their own.",
+fuel:[[8,0,"s1"],[13,1,"s4"],[null,0,"","Ryanair reports April to September and the full year, but not January to March on its own."],[null,0,"s10","easyJet reports October to March together. Over that half its fuel cost per seat fell about 5%, and March alone cost about £25 million extra."]],
+m:[[4.6,4.5,0,"s1"],[6.8,4.6,0,"s4","United’s figure is reported operating profit"],[null,null,0,"","Not reported on its own. January to March is also Ryanair’s weakest season."],[null,null,0,"s10","Airlines like easyJet normally lose money in winter, so there is no fair comparison."]]},
+"Apr–Jun":{note:"The first full quarter of the fuel shock, and the one period where all four airlines can be compared.",
+fuel:[[77,0,"s2"],[84,0,"s5"],[16,0,"s13",0,1],[17,0,"s14",0,1]],
+m:[[8.8,13.3,0,"s2,s15"],[5.4,11.6,0,"s5,s15"],[13.1,21.0,1,"s13"],[3.5,10.0,1,"s14"]]},
+"Jul–Sep":{note:"The recovery quarter. easyJet hasn’t reported yet, and Ryanair reports April to September together.",
+fuel:[[62,0,"s3"],[62,0,"s6"],[null,0,"s9","Ryanair reports April to September together. Over that half, its profit fell 15%."],[null,0,"","Not yet reported. Last year it reported in late November."]],
+m:[[9.4,null,0,"s3","Delta’s figure for last year isn’t checked yet"],[6.9,8.7,0,"s16"],[null,null,0,"s9","Reported only for April to September together."],[null,null,0,"","Not yet reported."]]}};
+function rf(ids){return ids?ids.split(",").map(function(i){return '<sup><a href="#'+i+'">'+i.slice(1)+'</a></sup>'}).join(""):""}
+var $=function(i){return document.getElementById(i)};
+$("names").innerHTML=A.map(function(a){return "<div>"+a+"</div>"}).join("");
+$("cols").innerHTML=A.map(function(){return '<div class="col"><div class="bv"><em></em></div></div>'}).join("");
+$("mr").innerHTML=A.map(function(a){return '<div class="mr"><div class="nm">'+a+'</div><div class="trk"><div class="ln"></div><div class="dt dp"></div><div class="dt dn"></div><div class="msg"></div></div><div class="dl"><b></b><small></small></div></div>'}).join("");
+function show(k){
+var d=P[k];$("pn").textContent=d.note;
+var bv=document.querySelectorAll(".bv"),fn=[];
+d.fuel.forEach(function(r,i){var b=bv[i],em=b.firstChild;
+if(r[0]===null){b.className="bv na";b.style.height="";em.textContent="n/a";if(r[3])fn.push("<span><b>"+A[i]+":</b> "+r[3]+rf(r[2])+"</span>")}
+else{b.className="bv"+(r[4]?" low":"");b.style.height=(r[0]/100*100)+"%";em.innerHTML="+"+r[0]+"%"+(r[1]?'<span class="est">EST.</span>':"")+rf(r[2]);
+if(r[4])fn.push("<span><b>"+A[i]+":</b> had locked in most of its fuel price early"+(i==2?" (80% at about $67 a barrel)":" (about 79% for July to September)")+rf(i==2?"s8":"s11")+"</span>")}});
+$("fn").innerHTML=fn.join("");
+var rows=document.querySelectorAll(".mr");
+d.m.forEach(function(r,i){var w=rows[i],ln=w.querySelector(".ln"),dp=w.querySelector(".dp"),dn=w.querySelector(".dn"),dl=w.querySelector(".dl");
+var p=function(v){return v/25*100};
+if(r[0]===null){w.classList.add("na");w.querySelector(".msg").innerHTML=r[5]||r[4]||"Not available."+rf(r[3]);dl.querySelector("b").textContent="n/a";dl.querySelector("small").textContent="";return}
+w.classList.remove("na");dn.style.left=p(r[0])+"%";
+if(r[1]===null){dp.style.opacity=0;ln.style.opacity=0;dl.querySelector("b").textContent="$"+r[0].toFixed(1);dl.querySelector("small").innerHTML="last year not checked"+rf(r[3])}
+else{dp.style.opacity=1;ln.style.opacity=1;dp.style.left=p(r[1])+"%";var lo=Math.min(r[0],r[1]);ln.style.left=p(lo)+"%";ln.style.width=Math.abs(p(r[0])-p(r[1]))+"%";
+var df=r[0]-r[1];dl.querySelector("b").innerHTML=(df>0?"+":"−")+Math.abs(df).toFixed(1)+(r[2]?'<span class="est">EST.</span>':"");
+dl.querySelector("small").innerHTML=r[1].toFixed(1)+" → "+r[0].toFixed(1)+rf(r[3])}
+if(r[4]&&r[1]!==null)dl.querySelector("small").innerHTML+='<br><span style="font-size:.68rem">'+r[4]+"</span>";
+});
+document.querySelectorAll("#tabs button").forEach(function(b){b.setAttribute("aria-pressed",b.dataset.k===k)})}
+Object.keys(P).forEach(function(k){var b=document.createElement("button");b.textContent=k;b.dataset.k=k;b.onclick=function(){show(k)};$("tabs").appendChild(b)});
+/* scatter: x = extra fuel cost %, y = profit points lost, Apr-Jun */
+(function(){var pts=[["Delta",77,4.5,0],["United",84,6.2,0],["Ryanair",16,7.9,1],["easyJet",17,6.5,1]],L=56,R=20,T=18,B=48,W=560,H=330,pw=W-L-R,ph=H-T-B;
+var X=function(v){return L+v/100*pw},Y=function(v){return T+ph-v/10*ph};
+var s='<rect x="'+L+'" y="'+Y(8)+'" width="'+pw+'" height="'+(Y(4.5)-Y(8))+'" fill="rgba(224,143,190,.1)"/>';
+[0,2,4,6,8,10].forEach(function(v){s+='<line x1="'+L+'" x2="'+(W-R)+'" y1="'+Y(v)+'" y2="'+Y(v)+'" stroke="rgba(255,255,255,.08)"/><text x="'+(L-10)+'" y="'+(Y(v)+4)+'" text-anchor="end" fill="#B3A0AA" font-size="11">'+v+'</text>'});
+[0,25,50,75,100].forEach(function(v){s+='<text x="'+X(v)+'" y="'+(H-26)+'" text-anchor="middle" fill="#B3A0AA" font-size="11">+'+v+'%</text>'});
+s+='<text x="'+(L+pw/2)+'" y="'+(H-6)+'" text-anchor="middle" fill="#B3A0AA" font-size="11.5">Extra fuel cost vs last year →</text>';
+s+='<text transform="translate(14 '+(T+ph/2)+') rotate(-90)" text-anchor="middle" fill="#B3A0AA" font-size="11.5">Profit lost per $100 of sales ($) →</text>';
+s+='<text x="'+(W-R-6)+'" y="'+(Y(8)-6)+'" text-anchor="end" fill="#E08FBE" font-size="11">Everyone lost $4.50 to $8</text>';
+pts.forEach(function(p){var cx=X(p[1]),cy=Y(p[2]),lab=p[1]>50?"end":"start",dx=p[1]>50?-14:14;
+s+='<circle cx="'+cx+'" cy="'+cy+'" r="9" fill="'+(p[3]?"#110508":"#E08FBE")+'" stroke="#E08FBE" stroke-width="2.5"><title>'+p[0]+': +'+p[1]+'% fuel cost, $'+p[2]+' profit lost'+(p[3]?" (estimate)":"")+'</title></circle><text x="'+(cx+dx)+'" y="'+(cy-12)+'" text-anchor="'+lab+'" fill="#F6EFF2" font-size="13" font-weight="600">'+p[0]+'</text><text x="'+(cx+dx)+'" y="'+(cy+22)+'" text-anchor="'+lab+'" fill="#B3A0AA" font-size="11">$'+p[2].toFixed(1)+(p[3]?" est.":"")+'</text>'});
+$("sc").innerHTML=s})();
+$("src").innerHTML=Object.keys(S).map(function(i){var s=S[i];return '<li id="'+i+'"><span class="k">'+i.slice(1)+'</span><span><a href="'+s[1]+'" target="_blank" rel="noopener noreferrer">'+s[0]+'</a>'+(s[2]?'<em>News report or summary: check against the company’s own release</em>':'')+'</span></li>'}).join("");
+/* count-up + reveal */
+var rm=matchMedia("(prefers-reduced-motion:reduce)").matches;
+document.querySelectorAll("[data-n]").forEach(function(el){var n=+el.dataset.n,p=el.dataset.p||"",s=el.dataset.s||"";if(rm){el.textContent=p+n+s;return}var t0=null;function f(t){if(!t0)t0=t;var k=Math.min((t-t0)/1100,1);el.textContent=p+Math.round(n*(1-Math.pow(1-k,3)))+s;if(k<1)requestAnimationFrame(f)}requestAnimationFrame(f)});
+if("IntersectionObserver" in window&&!rm){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}})},{threshold:.12});document.querySelectorAll(".rv").forEach(function(e){io.observe(e)})}else{document.querySelectorAll(".rv").forEach(function(e){e.classList.add("in")})}
+show("Apr–Jun");
+</script>
+</body>
+</html>
